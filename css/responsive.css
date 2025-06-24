@@ -1,22 +1,52 @@
 @media (min-width: 1400px) and (max-width: 1600px) {
+.main_menu .navbar-brand {
+    width: 130px;
+    margin-left: 20px;
+  }
+  .main_menu .navbar-nav .nav-item .nav-link {
+    padding: 0 20px;
+  }
   /* home page start */
+  .banner_text_top {
+    top: 160px;
+  }
+
+  .banner_text_bottom {
+    bottom: 50px;
+  }
+  .banner_text_center {
+    padding-top: 80px;
+  }
   .banner_img .img {
-    width: 490px;
-    height: 710px !important;
+    width: 340px;
+    height: 500px !important;
   }
 
   .banner_text_center h1,
   .banner_text_center h1 span {
-    font-size: 130px;
+    font-size: 116px;
+  }
+
+  .about_text .description {
+    font-size: 22px;
+  }
+
+  .about_text ul li h2,
+  .about_text ul li h2 span {
+    font-size: 48px;
+  }
+
+  .about_text ul li p {
+    font-size: 16px;
   }
 
   .section_heading h2,
   .section_heading h2 span {
-    font-size: 58px;
+    font-size: 48px;
   }
 
   .services_text p {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .testimonial_text {
@@ -27,18 +57,114 @@
     font-size: 20px;
   }
 
+  .testimonial_brand ul li {
+    padding: 25px 40px;
+  }
+
+  .contact_box_text h2 {
+    font-size: 42px;
+  }
+  .footer_heading ul {
+    gap: 10px;
+    justify-content: center;
+  }
+  .footer_heading ul li {
+    margin-right: 50px;
+  }
+  .footer_heading ul li a,
+  .footer_heading ul li p {
+    font-size: 22px;
+  }
+
+  .footer_heading ul li::after {
+    font-size: 26px;
+  }
+
   .container_large {
-    max-width: 1320px;
+    max-width: 1180px;
+  }
+
+  .single_blog .title {
+    font-size: 24px;
   }
 
   .single_blog .img {
-    height: 260px;
+    height: 220px;
   }
 
   /* home page end */
-  .portfolio_details_header li {
-    padding: 40px;
+
+  /* blog details start */
+  .sidebar_search,
+  .sidebar_services,
+  .sidebar_post,
+  .sidebar_tags,
+  .sidebar_contact {
+    padding: 25px;
   }
+
+  .sidebar_post ul li .text {
+    max-width: 64%;
+  }
+
+  .sidebar_post ul li .text p {
+    margin-bottom: 5px;
+  }
+
+  .sidebar_post ul li .text a {
+    font-size: 16px;
+  }
+
+  .sidebar_tags ul li a {
+    padding: 7px 18px;
+  }
+
+  /* blog details end */
+  .breadcrumb h1 {
+    font-size: 100px;
+  }
+
+  .portfolio_items {
+    margin-top: 120px !important ;
+  }
+
+  .portfolio_item {
+    margin-top: 0 !important;
+  }
+
+  .portfolio_details_header li {
+    padding: 30px;
+  }
+
+  .portfolio_details_img {
+    height: 550px;
+  }
+
+  .portfolio_details_center_img {
+    height: 550px;
+  }
+
+  /* portfolio start */
+  .portfolio_large_img {
+    height: 550px;
+  }
+
+  /* portfolio end */
+
+  /* service details start */
+  .service_details_img {
+    height: 550px;
+  }
+
+  .service_details_small_img {
+    height: 350px;
+  }
+
+  .faq .title {
+    font-size: 68px;
+  }
+
+  /* service details end */
 }
 
 @media (min-width: 1200px) and (max-width: 1399.99px) {
