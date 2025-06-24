@@ -585,8 +585,7 @@ button {
 }
 
 .banner_text_center h1 span {
-  -webkit-text-stroke: 2px var(--colorBlack);
-  -webkit-text-fill-color: #ffffff00;
+  color: var(--colorPrimary);
 }
 
 .banner_text_bottom {
