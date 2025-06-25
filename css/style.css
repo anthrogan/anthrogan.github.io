@@ -38,7 +38,7 @@ CSS TABLE OF CONTENTS
 }
 
 :root {
-  --colorPrimary: #ea552b;
+  --colorPrimary: #f7931e;
   --paraColor: #626262;
   --colorBlack: #010101;
   --colorWhite: #ffffff;
@@ -585,7 +585,8 @@ button {
 }
 
 .banner_text_center h1 span {
-  color: var(--colorPrimary);
+  -webkit-text-stroke: 5px var(--colorBlack);
+  -webkit-text-fill-color: transparent;
 }
 
 .banner_text_bottom {
