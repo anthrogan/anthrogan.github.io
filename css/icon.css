@@ -46,4 +46,7 @@
    .pt-icon-down:before {
      content: "\e903";
    }
+
+   .fa-bluesky {
+  --fa: "\e671"; }
    
