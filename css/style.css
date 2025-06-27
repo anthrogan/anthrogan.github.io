@@ -774,6 +774,12 @@ button {
   margin-bottom: 25px;
 }
 
+.single_skills .text .icon .skill-emoji {
+  display: block;
+  font-size: 40px;
+  line-height: 60px;
+}
+
 .single_skills .text h3,
 .single_skills .text h3 span {
   color: var(--colorWhite);
