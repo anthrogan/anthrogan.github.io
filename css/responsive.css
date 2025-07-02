@@ -1411,6 +1411,12 @@
 }
 
 @media (max-width: 575.99px) {
+  html,
+  body {
+    overflow-x: clip;
+    overscroll-behavior-x: none;
+    max-width: 100%;
+  }
   .services_text .service_item h2 {
     font-size: 22px;
   }
