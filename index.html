@@ -1,952 +1,386 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anth Rogan | Practical Software Engineer</title>
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi"
+      name="description"
+      content="Anth Rogan is a Sunderland-based software engineer building practical web apps, automation, AI workflows, and business systems for real companies."
     >
-    <title>Real Tech for Real Business</title>
-    <meta name="description" content="Real Tech for Real Business" >
-    <meta name="keywords" content="RGN Systems, Real Tech for Real Business" >
-    <meta name="author" content="RGN Systems" >
-    <link rel="icon" type="image/png" href="images/favicon.png" >
-    <link rel="stylesheet" href="css/plugin.css" >
-    <link rel="stylesheet" href="css/icon.css" >
-    <link rel="stylesheet" href="css/spacing.css" >
-    <link rel="stylesheet" href="css/style.css" >
-    <link rel="stylesheet" href="css/responsive.css" >
+    <meta
+      name="keywords"
+      content="Anth Rogan, RGN Systems, software engineer, full stack developer, automation, AI workflows, web applications, Sunderland, UK"
+    >
+    <meta name="author" content="Anth Rogan">
+    <meta name="theme-color" content="#f6f8f4">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/portfolio-2026.css">
     <script defer src="https://cloud.umami.is/script.js" data-website-id="54831024-a727-4f47-afa4-35c044d1511c"></script>
+    <script defer src="js/portfolio-2026.js"></script>
   </head>
 
-  <body id="body">
-    <!--================================
-        PRELOADER START
-    =================================-->
-    <div class="preloader">
-      <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
-        <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
-      </svg>
-      <h5 class="preloader-text">Loading</h5>
-    </div>
-    <!--================================
-        PRELOADER END
-    =================================-->
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-    <!--========================
-        MENU START
-    =========================-->
-    <nav class="navbar navbar-expand-lg main_menu">
-      <div class="container container_large">
-        <a class="navbar-brand" href="index.html">
-          <img src="images/RGN.png" alt="Petrix" class="img-fluid" >
+    <header class="site-header">
+      <div class="nav-shell">
+        <a class="brand" href="#top" aria-label="Anth Rogan home">
+          <span class="brand-mark">AR</span>
+          <span class="brand-copy">
+            <strong>Anth Rogan</strong>
+            <small>Practical Software Engineer</small>
+          </span>
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="fa-sharp fa-sharp fa-regular fa-bars menu_icon_bar"></i>
-          <i class="fa-regular fa-xmark close_icon_close"></i>
+
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" data-nav-toggle>
+          <span class="nav-toggle-lines" aria-hidden="true"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto">
-            <li class="nav-item">
-              <a class="nav-link active text_hover_animaiton" href="index.html"
-                >Home
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text_hover_animaiton" href="about_us.html"
-                >About Me</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text_hover_animaiton" href="portfolio.html"
-                >Portfolio</i
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text_hover_animaiton" href="services.html"
-                >Services</i
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text_hover_animaiton" href="blog_grid.html"
-                >Blog </i
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text_hover_animaiton" href="contact_us.html"
-                >Contact</a
-              >
-            </li>
-          </ul>
-          <div class="right_menu">
-            <a href="contact_us.html" class="btn_hover">Let's Talk</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!--========================
-        MENU END
-    =========================-->
-    <!--========================
-        BANNER START
-    =========================-->
-    <section class="banner">
-      <div class="container container_large">
-        <div class="row">
-          <div class="col-12">
-            <div class="banner_img">
-              <div class="banner_text">
-                <div class="banner_text_top">
-                  <p>
-                    Great technology isn't just for big business.
-                  </p>
-                  <!-- <div class="banner_text_top_right">
-                    <a
-                      class="play_btn circle_btn"
-                      href="https://www.youtube.com/watch?v=B-ytMSuwbf8&ab_channel=EnvatoTuts%2B"
-                    >
-                      <i class="fa-sharp fa-solid fa-play"></i
-                    ></a>
-                    <span>Work Process</span>
-                  </div> -->
-                </div>
-                <div class="banner_text_center">
-                  <h1>Real <span>Tech</span> for Real <span>Business</span></h1>
-                  <!-- <h1>Real Tech for Real Business</h1> -->
-                </div>
-                <div class="banner_text_bottom">
-                  <div class="text">
-                    <a class="scroll" href="#">
-                      <i class="pt-icon-down"></i>
-                    </a>
-                    <span>Scroll Down</span>
-                  </div>
-                  <div class="text text_right">
-                    <p>
-                      Start feeling the benefit of great tech today by reaching out.
-                    </p>
-                    <ul class="d-flex flex-wrap">
-                      <li><a href="mailto:anth@rgn.systems?subject=Reaching out">Email</a></li>
-                      <li><a href="https://www.linkedin.com/in/anth-rogan/">. LinkedIn</a></li>
-                      <li><a href="/contact_us.html">. Contact Me</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="img">
-                <img
-                  src="images/guy.png"
-                  alt="banner"
-                  class="img-fluid" >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--========================
-        BANNER END
-    =========================-->
 
-    <!--========================
-        ABOUT START
-    =========================-->
-    <section
-      class="about"
-      id="about"
-      style="background: url(images/golden_bg.jpg)"
-    >
-      <div class="section_heading">
-        <div class="container-fluid">
-          <h2>about me<span>who i am</span>what i do<span>how i do it</span></h2>
+        <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation" data-nav-menu>
+          <a href="#top">Home</a>
+          <a href="#details">Details</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a class="button primary" href="mailto:anth@rgn.systems?subject=Project%20chat">Start a chat</a>
         </div>
       </div>
-      <div class="about_text_area pt_120 xs_pt_80 pb_120 xs_pb_80">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-5 col-md-6">
-              <div class="about_img">
-                <img src="images/about_img.png" alt="about" class="img-fluid" >
+    </header>
+
+    <main id="main">
+      <section class="section hero" id="top" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>SYSTEM.KERNEL :: ONLINE</p>
+            <h1 id="hero-title">Real <span>software</span> for real business.</h1>
+            <p class="hero-lede">
+              I am Anth Rogan, a Sunderland-based engineer with 18+ years in tech. I turn scattered workflows,
+              awkward systems, and good business ideas into web apps, automations, AI tools, and platforms people can actually run.
+            </p>
+
+            <div class="hero-actions" aria-label="Primary actions">
+              <a class="button primary" href="mailto:anth@rgn.systems?subject=Project%20chat">Email Anth</a>
+              <a class="button ghost" href="#portfolio">View projects</a>
+            </div>
+
+            <div class="hero-meta" aria-label="Profile summary">
+              <div class="meta-card">
+                <strong>18+</strong>
+                <span>years in tech</span>
+              </div>
+              <div class="meta-card">
+                <strong>UK</strong>
+                <span>Sunderland based</span>
+              </div>
+              <div class="meta-card">
+                <strong>Open</strong>
+                <span>to practical builds</span>
               </div>
             </div>
-            <div class="col-xl-7 col-md-6">
-              <div class="about_text">
-                <p class="description text-anim">
-                  Hi, I’m Anth Rogan — a developer from Sunderland with 18+ years in tech. I build smart, practical systems that bring big tech capabilities to real businesses. From simple websites and automations to complex systems spanning multiple platforms with a sprinkle of AI. 
+          </div>
+
+          <aside class="workspace-card reveal" aria-label="Workspace preview">
+            <div class="window-bar">
+              <span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span class="window-title">anth@rgn:~/workspace</span>
+            </div>
+
+            <div class="terminal">
+              <p><span class="prompt">$</span> <span class="command">whoami</span></p>
+              <p class="terminal-output"><strong>software engineer</strong> / systems thinker / business problem translator</p>
+              <p><span class="prompt">$</span> <span class="command">cat current-focus.txt</span></p>
+              <p class="terminal-output">web platforms, automation, private AI workflows, and useful systems that survive contact with real operations.</p>
+
+              <div class="terminal-grid" aria-label="Current work modes">
+                <div class="terminal-tile">
+                  <span>mode</span>
+                  <strong>build the thing</strong>
+                </div>
+                <div class="terminal-tile">
+                  <span>bias</span>
+                  <strong>practical over flashy</strong>
+                </div>
+                <div class="terminal-tile">
+                  <span>stack</span>
+                  <strong>web + automation + AI</strong>
+                </div>
+                <div class="terminal-tile">
+                  <span>output</span>
+                  <strong>less manual work</strong>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="details" aria-labelledby="details-title">
+        <div class="container section-title reveal">
+          <div>
+            <p class="section-kicker"># About.system</p>
+            <h2 id="details-title">A developer for the awkward middle of <span>business and systems</span>.</h2>
+          </div>
+          <p>
+            I work best where the brief is not just "build a website", but "this part of the business is slow,
+            fragmented, manual, or invisible". The right answer might be a dashboard, a private tool, an integration,
+            an AI summary layer, or a small app that quietly removes hours of friction.
+          </p>
+        </div>
+
+        <div class="container details-grid">
+          <article class="panel reveal">
+            <div class="window-bar">
+              <span class="window-title">profile.log</span>
+            </div>
+            <div class="panel-body">
+              <p class="profile-copy">
+                Hi, I am Anth Rogan. I build smart, practical systems that bring big-tech capability to real businesses:
+                from simple websites and automations to complex systems spanning multiple platforms with a useful amount of AI.
+              </p>
+
+              <div class="principles" aria-label="Operating principles">
+                <div class="principle">
+                  <strong>Practical first</strong>
+                  <span>Useful beats impressive when the work has to run every day.</span>
+                </div>
+                <div class="principle">
+                  <strong>Maintainable by default</strong>
+                  <span>Clear systems, clear handover, and clear routes for future change.</span>
+                </div>
+                <div class="principle">
+                  <strong>Business aware</strong>
+                  <span>Technical choices should map back to an operational result.</span>
+                </div>
+                <div class="principle">
+                  <strong>Secure where it matters</strong>
+                  <span>Private data, sensible hosting, and controlled AI usage.</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <aside class="panel stack-panel reveal" aria-label="Capabilities and tools">
+            <div class="window-bar">
+              <span class="window-title">capabilities.json</span>
+            </div>
+            <div class="panel-body">
+              <div class="stack-group">
+                <h3>Build lanes</h3>
+                <div class="stack-list">
+                  <span>Web apps</span>
+                  <span>Dashboards</span>
+                  <span>Internal tools</span>
+                  <span>Automation</span>
+                  <span>AI workflows</span>
+                  <span>Hardware systems</span>
+                </div>
+              </div>
+              <div class="stack-group">
+                <h3>Common shape</h3>
+                <div class="stack-list">
+                  <span>APIs</span>
+                  <span>Databases</span>
+                  <span>CRM integration</span>
+                  <span>Node-RED</span>
+                  <span>LLMs</span>
+                  <span>Business data</span>
+                </div>
+              </div>
+              <div class="stack-group">
+                <h3>Good fit</h3>
+                <div class="stack-list">
+                  <span>Messy workflows</span>
+                  <span>Legacy constraints</span>
+                  <span>NDA projects</span>
+                  <span>Fast iteration</span>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="portfolio" aria-labelledby="portfolio-title">
+        <div class="container section-title reveal">
+          <div>
+            <p class="section-kicker">$ ls -la ~/projects</p>
+            <h2 id="portfolio-title">Selected builds with <span>business weight</span> behind them.</h2>
+          </div>
+          <p>
+            A few public-safe examples of the kind of systems I build: mobile apps, data platforms, AI helpers,
+            automation pipelines, and industrial control improvements.
+          </p>
+        </div>
+
+        <div class="container">
+          <div class="project-controls reveal" aria-label="Filter projects">
+            <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+            <button class="filter-button" type="button" data-filter="apps" aria-pressed="false">Apps</button>
+            <button class="filter-button" type="button" data-filter="web" aria-pressed="false">Web</button>
+            <button class="filter-button" type="button" data-filter="automation" aria-pressed="false">Automation</button>
+            <button class="filter-button" type="button" data-filter="ai" aria-pressed="false">AI</button>
+            <button class="filter-button" type="button" data-filter="systems" aria-pressed="false">Systems</button>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card project-card-wide reveal" data-category="apps web systems">
+              <a class="project-media" href="https://campa-app.com" aria-label="Open the Campa website">
+                <img src="https://campa-app.com/landing/reallifepin.png" alt="Campa app location pin beside a campervan at a lake">
+              </a>
+              <div class="project-body">
+                <div class="project-topline">
+                  <span class="status-pill">Featured app</span>
+                  <span class="project-meta">iOS + Android / Travel</span>
+                </div>
+                <h3>Campa</h3>
+                <p>
+                  A road-ready vanlife app for finding trusted campervan stops, planning trips, saving private places,
+                  and sharing useful knowledge with people already travelling.
                 </p>
-                <ul>
-                  <li class="fade_right" data-trigerId="about">
-                    <h2><span class="counter">18</span>+</h2>
-                    <p>Years of experience</p>
-                  </li>
-                  <li class="fade_right" data-trigerId="about">
-                    <h2><span class="counter">1</span>K+</h2>
-                    <p>Successful Projects</p>
-                  </li>
-                  <li class="fade_right" data-trigerId="about">
-                    <h2><span class="counter">10</span>+</h2>
-                    <p>Awards</p>
-                  </li>
-                </ul>
-                <!-- <a class="common_btn btn_hover" data-trigerId="about" href="#"
-                  >download CV</a
-                > -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--========================
-        ABOUT END
-    =========================-->
-
-    <!--========================
-        SKILLS START
-    =========================-->
-    <section class="skills pt_105 xs_pt_65 pb_120 xs_pb_80" id="skills">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-11 m-auto">
-            <h2 class="has-animation">
-              I craft real digital solutions for real businesses
-            </h2>
-          </div>
-        </div>
-        <div class="row justify-content-between">
-          <div class="col-xl-2 col-sm-4 col-lg-3">
-            <div class="single_skills fade_left" data-trigerId="skills">
-              <div class="text">
-                <div class="icon">
-                  <span class="skill-emoji">🧑‍💻</span>
+                <div class="project-result">Built around the real questions travellers ask on the road: where to stop, what is nearby, and what other campers know about it.</div>
+                <div class="tags">
+                  <span class="tag">Mobile app</span>
+                  <span class="tag">Location discovery</span>
+                  <span class="tag">Route planning</span>
+                  <span class="tag">Community</span>
+                  <span class="tag">Subscriptions</span>
                 </div>
-                <h3><span class="counter">90</span>%</h3>
-              </div>
-              <p>Frontend</p>
-            </div>
-          </div>
-          <div class="col-xl-2 col-sm-4 col-lg-3">
-            <div class="single_skills fade_left" data-trigerId="skills">
-              <div class="text">
-                <div class="icon">
-                  <span class="skill-emoji">📀</span>
-                </div>
-                <h3><span class="counter">80</span>%</h3>
-              </div>
-              <p>Backend</p>
-            </div>
-          </div>
-          <div class="col-xl-2 col-sm-4 col-lg-3">
-            <div class="single_skills fade_left" data-trigerId="skills">
-              <div class="text">
-                <div class="icon">
-                  <span class="skill-emoji">🏗️</span>
-                </div>
-                <h3><span class="counter">95</span>%</h3>
-              </div>
-              <p>Automation</p>
-            </div>
-          </div>
-          <div class="col-xl-2 col-sm-4 col-lg-3">
-            <div class="single_skills fade_left" data-trigerId="skills">
-              <div class="text">
-                <div class="icon">
-                  <span class="skill-emoji">✒️</span>
-                </div>
-                <h3><span class="counter">85</span>%</h3>
-              </div>
-              <p>UI/UX</p>
-            </div>
-          </div>
-          <div class="col-xl-2 col-sm-4 col-lg-3">
-            <div class="single_skills fade_left" data-trigerId="skills">
-              <div class="text">
-                <div class="icon">
-                  <span class="skill-emoji">🤖</span>
-                </div>
-                <h3><span class="counter">90</span>%</h3>
-              </div>
-              <p>LLM's</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--========================
-        SKILLS END
-    =========================-->
-
-    <!--========================
-        AWARD START
-    =========================-->
-    <section class="award pb_120 xs_pb_80" id="award">
-      <div class="section_heading section_heading_2">
-        <div class="container-fluid">
-          <h2>Awards<span>Honerable Mentions</span>Podcasts<span>Talking Events</span></h2>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="award_text mt_115 xs_mt_75">
-              <ul>
-                <li class="fade_bottom" data-trigerId="award">
-                  <span>🏆 Award</span>
-                  <span>UK Emerging Tech in Energy Award</span>
-                  <span>2024</span>
-                </li>
-                <li class="fade_bottom" data-trigerId="award">
-                  <span>🗣️ Speaking</span>
-                  <span>Systems That Scale Award – FastForward SME Awards 2023</span>
-                  <span>2023</span>
-                </li>
-                <li class="fade_bottom" data-trigerId="award">
-                  <span>🏆 Award</span>
-                  <span>Northern Digital Excellence in Automation</span>
-                  <span>2022</span>
-                </li>
-                <li class="fade_bottom" data-trigerId="award">
-                  <span>🎙️ Podcast</span>
-                  <span>JS & Hardware - Syntax - <a href="https://syntax.fm/guest/anth-rogan">Listen Now</a></span>
-                  <span>2021</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--========================
-        AWARD END
-    =========================-->
-
-    <!--========================
-        EXPERIENCE START
-    =========================-->
-    <!-- <section class="experience pt_90 xs_pt_50 pb_120 xs_pb_80" id="experience">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-6 col-lg-6">
-            <div class="experience_text fade_left" data-trigerId="experience">
-              <h2>
-                <i class="fa-sharp fa-solid fa-graduation-cap"></i>
-                <span class="has-animation">My Education</span>
-              </h2>
-              <ul>
-                <li>
-                  <div class="title">
-                    <span>2002</span>
-                  </div>
-                  <div class="title">
-                    <h3>Programming Course</h3>
-                    <p>Harvard University</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="title">
-                    <span>2014 - 2015</span>
-                  </div>
-                  <div class="title">
-                    <h3>Cognitive Sciences</h3>
-                    <p>University of California</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="title">
-                    <span>2013 - 2014</span>
-                  </div>
-                  <div class="title">
-                    <h3>Web Design Course</h3>
-                    <p>Bigtown, England</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div class="experience_text fade_right" data-trigerId="experience">
-              <h2>
-                <i class="fa-solid fa-briefcase-blank"></i>
-                <span class="has-animation">My Experience</span>
-              </h2>
-              <ul>
-                <li>
-                  <div class="title">
-                    <span>2022 - Present</span>
-                  </div>
-                  <div class="title">
-                    <h3>Envato Elements</h3>
-                    <p>Exclusive Author</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="title">
-                    <span>2018 - 2021</span>
-                  </div>
-                  <div class="title">
-                    <h3>Leader Team of Marketing</h3>
-                    <p>Head of Department</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="title">
-                    <span>2013 - 2014</span>
-                  </div>
-                  <div class="title">
-                    <h3>Head of UX Engineering</h3>
-                    <p>Webflow</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!--========================
-        EXPERIENCE END
-    =========================-->
-
-    <!--========================
-        PORTFOLIO START
-    =========================-->
-    <section class="portfolio pb_120 xs_pb_80" id="portfolio">
-      <div class="section_heading section_heading_2">
-        <div class="container-fluid">
-          <h2>
-            PORTFOLIO<span>things i can talk about</span>i bult that<span>previous work</span>
-          </h2>
-        </div>
-      </div>
-      <div class="container portfolio_items">
-        <div class="row justify-content-between">
-          <div class="col-xl-6 col-md-6">
-            <a
-              href="b2b_customer_platform.html"
-              class="portfolio_item mt_120 xs_mt_80 hover_img h-400"
-              data-cursor="<i class='fa-sharp fa-light fa-arrow-up-right'></i>"
-            >
-              <div class="img-box">
-                <img
-                  src="images/portfolio_img_1.png"
-                  alt="portfolio"
-                  class="img-fluid" ><img
-                  src="images/portfolio_img_1.png"
-                  alt="portfolio"
-                  class="img-fluid img"
-                  data-speed="0.3" >
-              </div>
-
-              <div class="text">
-                <span>B2B Customer Platform</span>
-                <p>Web Development</p>
-              </div>
-            </a>
-
-                        <a
-              href="system_iteration.html"
-              class="portfolio_item mt_120 xs_mt_80 h-600 hover_img"
-              data-cursor="<i class='fa-brands fa-light fa-arrow-up-right'></i>"
-            >
-              <div class="img-box">
-                <img
-                  src="images/portfolio_img_6.png"
-                  alt="portfolio"
-                  class="img-fluid" ><img
-                  src="images/portfolio_img_6.png"
-                  alt="portfolio"
-                  class="img-fluid img" >
-              </div>
-
-              <div class="text">
-                <span>System Itertation</span>
-                <p>System Engineering</p>
-              </div>
-            </a>
-
-          </div>
-
-          <div class="col-xl-6 col-md-6">
-            <a
-              href="ai_customer_interaction_summary.html"
-              class="portfolio_item margin_left mt_120 xs_mt_80 hover_img h-600"
-              data-cursor="<i class='fa-sharp fa-light fa-arrow-up-right'></i>"
-            >
-              <div class="img-box">
-                <img
-                  src="images/portfolio_img_7.png"
-                  alt="portfolio"
-                  class="img-fluid" ><img
-                  src="images/portfolio_img_7.png"
-                  alt="portfolio"
-                  class="img-fluid img"
-                  data-speed="0.3" >
-              </div>
-
-              <div class="text">
-                <span>AI Customer Interaction Summary</span>
-                <p>LLM</p>
-              </div>
-            </a>
-            <a
-              href="seo_lead_capture_outreach.html"
-              class="portfolio_item margin_left mt_120 xs_mt_80 hover_img h-400"
-              data-cursor="<i class='fa-sharp fa-light fa-arrow-up-right'></i>"
-            >
-              <div class="img-box">
-                <img
-                  src="images/portfolio_img_2.png"
-                  alt="portfolio"
-                  class="img-fluid" ><img
-                  src="images/portfolio_img_2.png"
-                  alt="portfolio"
-                  class="img-fluid img"
-                  data-speed="0.3" >
-              </div>
-
-              <div class="text">
-                <span>SEO, Lead Capture & Outreach</span>
-                <p>Digital Marketing</p>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-12 text-center mt_120 xs_mt_80">
-            <a class="see_portfolio circle_btn" href="portfolio.html">
-              <i class="fa-sharp fa-light fa-arrow-up-right"></i> See All Recent
-              Projects</a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--========================
-        PORTFOLIO END
-    =========================-->
-
-    <!--========================
-        SERVICES START
-    =========================-->
-    <section class="services pb_120 xs_pb_80" id="service">
-      <div class="section_heading section_heading_2">
-        <div class="container-fluid">
-          <h2>SERVICES<span>OFFERINGS</span>THINGS I DO<span>REAL TECH</span></h2>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="services_text mt_105 xs_mt_65">
-              <p class="text-anim">
-                I specialise in building smart, modern systems using real, proven tech that helps real businesses thrive. From fast, SEO-optimised websites and mobile apps to powerful automations and industrial workflows, I design and deliver solutions that are secure, scalable, and easy to use. You don’t need to be a large corporation to benefit from tools like n8n, Node-RED, React Native, or custom backend systems. I bring enterprise-grade technology to growing businesses, helping you streamline operations, capture more leads, and turn your tech into a competitive advantage.
-              </p>
-              <div class="mt_110 xs_mt_70 service_items">
-                <div class="service_item fade_bottom" data-trigerId="service">
-                  <h2>Web Development <sup>(01)</sup></h2>
-                  <a
-                    href="web_development.html"
-                    class="image-view"
-                    data-img-cursor="<img src='images/portfolio_img_7.jpg' />"
-                    ><i class="fas fa-eye"></i
-                  ></a>
-                </div>
-                <div class="service_item fade_bottom" data-trigerId="service">
-                  <h2>Automation <sup>(02)</sup></h2>
-                  <a
-                    href="service_details.html"
-                    class="image-view"
-                    data-img-cursor="<img src='images/portfolio_img_11.jpg' />"
-                    ><i class="fas fa-eye"></i
-                  ></a>
-                </div>
-                <div class="service_item fade_bottom" data-trigerId="service">
-                  <h2>System Engineering <sup>(03)</sup></h2>
-                  <a
-                    href="service_details.html"
-                    class="image-view"
-                    data-img-cursor="<img src='images/portfolio_img_9.jpg' />"
-                    ><i class="fas fa-eye"></i
-                  ></a>
-                </div>
-                <div class="service_item fade_bottom" data-trigerId="service">
-                  <h2>Digital Marketing <sup>(04)</sup></h2>
-                  <a
-                    href="service_details.html"
-                    class="image-view"
-                    data-img-cursor="<img src='images/portfolio_img_10.jpg' />"
-                    ><i class="fas fa-eye"></i
-                  ></a>
-                </div>
-                <div class="service_item fade_bottom" data-trigerId="service">
-                  <h2>Ad-hoc Changes to Existing Systems <sup>(05)</sup></h2>
-                  <a
-                    href="service_details.html"
-                    class="image-view"
-                    data-img-cursor="<img src='images/portfolio_img_1.jpg' />"
-                    ><i class="fas fa-eye"></i
-                  ></a>
-                </div>
-                <div class="service_item fade_bottom" data-trigerId="service">
-                  <h2>Apps <sup>(06)</sup></h2>
-                  <a
-                    href="service_details.html"
-                    class="image-view"
-                    data-img-cursor="<img src='images/portfolio_img_2.jpg' />"
-                    ><i class="fas fa-eye"></i
-                  ></a>
+                <div class="project-links">
+                  <a class="inline-link" href="https://campa-app.com">Website</a>
+                  <a class="inline-link" href="https://apps.apple.com/gb/app/campa/id6749905227">App Store</a>
+                  <a class="inline-link" href="https://play.google.com/store/apps/details?id=com.anthrogan.campa&amp;hl=en">Google Play</a>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--========================
-        SERVICES END
-    =========================-->
+            </article>
 
-    <!--========================
-        TESTIMONIAL START
-    =========================-->
-    <section
-      class="testimonial pb_120 xs_pb_80"
-      style="background: url(images/golden_bg.jpg)"
-    >
-      <div class="section_heading section_heading_2">
-        <div class="container-fluid">
-          <h2>
-            testimonial<span>What People have said</span>Feedback<span
-              >review</span
-            >
-          </h2>
-        </div>
-      </div>
-      <div class="container mt_120 xs_mt_80">
-        <div class="row">
-          <div class="col-xl-11 m-auto">
-            <div class="testimonial_bg">
-              <div class="row testi_slider">
-                <div class="col-12">
-                  <div class="testimonial_content">
-                    <div class="testimonial_img">
-                      <img
-                        src="images/testimonial_img_jay.png"
-                        alt="testimonial"
-                        class="img-fluid" >
-                    </div>
-                    <div class="testimonial_text">
-                      <p>
-                        Anth has a wealth of experience and knowledge on a variety of DevOps applications, utilising IIOT and other technologies to capture and evaluate key data. 
-
-                        Anth has a genuine interest in his and other peoples work, he will go above and beyond to help anyone achieve their goals.
-                      </p>
-                      <h4>Jay Gokcan</h4>
-                      <span> Senior Control System Engineer </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="testimonial_content">
-                    <div class="testimonial_img">
-                      <img
-                        src="images/testimonial_img_carl.png"
-                        alt="testimonial"
-                        class="img-fluid" >
-                    </div>
-                    <div class="testimonial_text">
-                      <p>
-                        Anth has a real talent for building systems that just work. His experience shows in every part of the process, from understanding the problem to delivering clean, scalable solutions. Whether it's automation, app dev, or full system design, he's the go-to
-                      </p>
-                      <h4>Carl Thomas</h4>
-                      <span> Commercial Director </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container mt_110 xs_mt_70" id="testimonial_brand">
-        <div class="row">
-          <div class="col-12">
-            <div class="testimonial_brand">
-              <p class="text-anim justify-content-center">
-                More than 200+ companies trust me nationwide
-              </p>
-              <ul>
-                <li>
-                  <img
-                    src="images/brand_logo_1.png"
-                    alt="brand"
-                    class="img-fluid" >
-                </li>
-                <li>
-                  <img
-                    src="images/brand_logo_2.png"
-                    alt="brand"
-                    class="img-fluid" >
-                </li>
-                <li>
-                  <img
-                    src="images/brand_logo_3.png"
-                    alt="brand"
-                    class="img-fluid" >
-                </li>
-                <li>
-                  <img
-                    src="images/brand_logo_4.png"
-                    alt="brand"
-                    class="img-fluid" >
-                </li>
-                <li>
-                  <img
-                    src="images/brand_logo_5.png"
-                    alt="brand"
-                    class="img-fluid" >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--========================
-        TESTIMONIAL END
-    =========================-->
-
-    <!--========================
-        BLOG START
-    =========================-->
-    <!-- <section class="blog pb_125 xs_pb_85" id="blog">
-      <div class="section_heading section_heading_2">
-        <div class="container-fluid">
-          <h2>Our News<span>Our News</span>Our News<span>Our News</span></h2>
-        </div>
-      </div>
-      <div class="container mt_95 xs_mt_55">
-        <div class="row">
-          <div class="col-xl-4 col-md-6">
-            <div class="single_blog fade_left" data-trigerId="blog">
-              <h4>August 11, 2023</h4>
-              <a class="title" href="blog_details.html"
-                >Fresh design ideas & inspiration for 2023</a
-              >
-              <p>
-                Duis aute irure dolor in reprehenderit velit esse cillum dolore
-                eu fugiat
-              </p>
-              <a
-                href="blog_details.html"
-                data-cursor="<i class='fa-sharp fa-light fa-arrow-up-right'></i>"
-                class="img hover_img"
-              >
-                <div class="img-box">
-                  <img
-                    src="images/blog_img_1.jpg"
-                    alt="blog"
-                    class="img-fluid" >
-                  <img
-                    src="images/blog_img_1.jpg"
-                    alt="blog"
-                    class="img-fluid" >
-                </div>
+            <article class="project-card reveal" data-category="web systems">
+              <a class="project-media" href="b2b_customer_platform.html" aria-label="Read the Industrion B2B Customer Platform case study">
+                <img src="images/industrion-page.png" alt="Industrion energy platform dashboard page">
               </a>
-              <a class="read_btn" href="blog_details.html">read more</a>
-            </div>
-          </div>
-          <div class="col-xl-4 col-md-6">
-            <div class="single_blog fade_left" data-trigerId="blog">
-              <h4>August 11, 2023</h4>
-              <a class="title" href="blog_details.html"
-                >What are the new trends in web design?</a
-              >
-              <p>
-                Duis aute irure dolor in reprehenderit velit esse cillum dolore
-                eu fugiat
-              </p>
-              <a
-                href="blog_details.html"
-                data-cursor="<i class='fa-sharp fa-light fa-arrow-up-right'></i>"
-                class="img hover_img"
-              >
-                <div class="img-box">
-                  <img
-                    src="images/blog_img_2.jpg"
-                    alt="blog"
-                    class="img-fluid" >
-                  <img
-                    src="images/blog_img_2.jpg"
-                    alt="blog"
-                    class="img-fluid" >
+              <div class="project-body">
+                <div class="project-topline">
+                  <span class="status-pill">Flagship</span>
+                  <span class="project-meta">Web platform / 2025</span>
                 </div>
-              </a>
-              <a class="read_btn" href="blog_details.html">read more</a>
-            </div>
-          </div>
-          <div class="col-xl-4 col-md-6">
-            <div class="single_blog fade_left" data-trigerId="blog">
-              <h4>August 11, 2023</h4>
-              <a class="title" href="blog_details.html"
-                >Fresh design ideas & inspiration for 2023</a
-              >
-              <p>
-                Duis aute irure dolor in reprehenderit velit esse cillum dolore
-                eu fugiat
-              </p>
-              <a
-                href="blog_details.html"
-                data-cursor="<i class='fa-sharp fa-light fa-arrow-up-right'></i>"
-                class="img hover_img"
-              >
-                <div class="img-box">
-                  <img
-                    src="images/blog_img_3.jpg"
-                    alt="blog"
-                    class="img-fluid" >
-                  <img
-                    src="images/blog_img_3.jpg"
-                    alt="blog"
-                    class="img-fluid" >
+                <h3>Industrion / B2B Customer Platform</h3>
+                <p>
+                  A data-heavy energy platform for DBSNE that brings consumption insight, supplier bidding,
+                  site monitoring, tenant billing, and customer onboarding into one application.
+                </p>
+                <div class="project-result">Built across frontend, backend, and architecture to turn fragmented energy operations into one decision hub.</div>
+                <div class="tags">
+                  <span class="tag">Dashboards</span>
+                  <span class="tag">APIs</span>
+                  <span class="tag">Data</span>
+                  <span class="tag">B2B SaaS</span>
                 </div>
-              </a>
-              <a class="read_btn" href="blog_details.html">read more</a>
-            </div>
-          </div>
-          <div class="col-12 text-center mt_60">
-            <a class="common_btn btn_hover" href="blog_details.html"
-              >Explore Our Blog</a
-            >
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!--========================
-        BLOG END
-    =========================-->
+                <div class="project-links">
+                  <a class="inline-link" href="https://industrion.io">Live project</a>
+                </div>
+              </div>
+            </article>
 
-    <!--========================
-        CONTACT BOX START
-    =========================-->
-    <section class="contact_box pb_120 xs_pb_80">
-      <div class="section_heading section_heading_2">
-        <div class="container-fluid">
-          <h2>
-            Let's talk<span>quick chat</span>no commitment<span>email me</span>
-          </h2>
+            <article class="project-card reveal" data-category="ai web">
+              <a class="project-media" href="ai_customer_interaction_summary.html" aria-label="Read the AI Customer Interaction Summary case study">
+                <img src="images/portfolio_img_7.png" alt="AI customer summary project visual">
+              </a>
+              <div class="project-body">
+                <div class="project-topline">
+                  <span class="status-pill">Private</span>
+                  <span class="project-meta">AI workflow</span>
+                </div>
+                <h3>Customer Interaction Summaries</h3>
+                <p>
+                  A private LLM layer that summarises calls, emails, and CRM notes so sales and support teams can see recent account context quickly.
+                </p>
+                <div class="project-result">Saved manual catch-up time and helped new team members understand account state faster.</div>
+                <div class="tags">
+                  <span class="tag">LLM</span>
+                  <span class="tag">CRM</span>
+                  <span class="tag">Summaries</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal" data-category="automation web">
+              <a class="project-media" href="seo_lead_capture_outreach.html" aria-label="Read the SEO Lead Capture and Outreach case study">
+                <img src="images/portfolio_img_2.png" alt="Lead capture and outreach automation project visual">
+              </a>
+              <div class="project-body">
+                <div class="project-topline">
+                  <span class="status-pill">NDA</span>
+                  <span class="project-meta">Automation</span>
+                </div>
+                <h3>SEO Lead Capture &amp; Outreach</h3>
+                <p>
+                  An always-on pipeline that combines visitor tracking, company enrichment, and targeted outreach to turn anonymous traffic into useful B2B leads.
+                </p>
+                <div class="project-result">Improved outreach efficiency by connecting visitor intent to contactable business stakeholders.</div>
+                <div class="tags">
+                  <span class="tag">Tracking</span>
+                  <span class="tag">Enrichment</span>
+                  <span class="tag">Outreach</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal" data-category="systems automation">
+              <a class="project-media" href="system_iteration.html" aria-label="Read the industrial system iteration case study">
+                <img src="images/portfolio_img_6.png" alt="Industrial system engineering project visual">
+              </a>
+              <div class="project-body">
+                <div class="project-topline">
+                  <span class="status-pill">Industrial</span>
+                  <span class="project-meta">Systems</span>
+                </div>
+                <h3>Industrial System Iteration</h3>
+                <p>
+                  A Revolution Pi and Node-RED architecture that replaced a rigid hard-coded automation system with something easier to adapt and deploy.
+                </p>
+                <div class="project-result">Created a future-friendly control template without needing deep PLC programming knowledge for every change.</div>
+                <div class="tags">
+                  <span class="tag">Node-RED</span>
+                  <span class="tag">Hardware</span>
+                  <span class="tag">Control</span>
+                </div>
+              </div>
+            </article>
+          </div>
         </div>
-      </div>
-      <div class="container mt_105 xs_mt_65">
-        <div class="row">
-          <div class="col-xl-10 col-md-10 m-auto">
-            <div class="contact_box_text">
-              <h2 class="has-animation">
-                Do you have a question, an idea, or a project you need help
-                with? Contact me!
-              </h2>
-              <a href="contact_us.html" class="btn_hover contact_btn"
-                >Contact Form</a
-              >
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-card reveal">
+          <div>
+            <p class="section-kicker">$ ./contact.exe</p>
+            <h2 id="contact-title">Have a workflow, app, or system that needs turning into something real?</h2>
+            <p>Send over the messy version. I can usually help find the practical shape of it.</p>
+            <div class="footer-actions">
+              <a class="button primary" href="mailto:anth@rgn.systems?subject=Project%20chat">anth@rgn.systems</a>
+              <a class="button ghost" href="https://www.linkedin.com/in/anth-rogan/">LinkedIn</a>
+              <a class="button ghost" href="https://github.com/anthrogan">GitHub</a>
             </div>
           </div>
+
+          <aside class="contact-aside" aria-label="Contact details">
+            <div class="contact-line"><span>status</span><strong>open_to_projects</strong></div>
+            <div class="contact-line"><span>email</span><a href="mailto:anth@rgn.systems">anth@rgn.systems</a></div>
+            <div class="contact-line"><span>location</span><strong>Sunderland, UK</strong></div>
+            <div class="contact-line"><span>github</span><a href="https://github.com/anthrogan">@anthrogan</a></div>
+            <div class="contact-line"><span>linkedin</span><a href="https://www.linkedin.com/in/anth-rogan/">anth-rogan</a></div>
+          </aside>
         </div>
-      </div>
-    </section>
-    <!--========================
-        CONTACT BOX END
-    =========================-->
-    <!--========================
-        FOOTER START
-    =========================-->
-    <footer id="footer" style="background: url(images/golden_bg.jpg)">
-      <div class="footer_heading">
-        <div class="container">
-          <ul>
-            <li>
-              <a href="mailto:anth@rgn.systems">anth@rgn.systems</a>
-            </li>
-            <li>
-              <p>Sunderland, UK</p>
-            </li>
-            <li>
-              <a href="tel:07903063385">07903 063 385</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer_link">
-        <div class="container">
-          <ul>
-            <li class="fade_bottom" data-trigerId="footer">
-              <a href="https://github.com/anthrogan" data-cursor='<i class="fa-brands fa-github"></i>'
-                >My Github</a
-              >
-            </li>
-            <li class="fade_bottom" data-trigerId="footer">
-              <a href="https://www.linkedin.com/in/anth-rogan/" data-cursor='<i class="fa-brands fa-linkedin"></i>'
-                >My LinkedIn</a
-              >
-            </li>
-            <li class="fade_bottom" data-trigerId="footer">
-              <a href="#" data-cursor='<i class="fa-brands fa-bluesky"></i>'
-                >My Bluesky</a
-              >
-            </li>
-            <li class="fade_bottom" data-trigerId="footer">
-              <a href="#" data-cursor='<i class="fa-brands fa-bluesky"></i>'
-                >My Email</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer_copyright">
-        <div class="container">
-          <div class="footer_copyright_text">
-            <p>Copyright © 2025 RGN Systems. All rights reserved.</p>
-            <!-- <ul>
-              <li>
-                <a href="#" class="text_hover_animaiton">Terms & Condition </a>
-              </li>
-              <li>
-                <a href="#" class="text_hover_animaiton">Privacy Policy</a>
-              </li>
-            </ul> -->
-            <a class="scroll_button" href="#body"
-              ><i class="fa-light fa-arrow-up"></i
-            ></a>
-          </div>
-        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>Copyright &copy; 2026 Anth Rogan / RGN Systems. All rights reserved.</p>
+        <a href="#top">Back to top</a>
       </div>
     </footer>
-    <!--========================
-        FOOTER END
-    =========================-->
-
-    <!--========================
-        CURSOR START
-    =========================-->
-    <div id="magic-cursor">
-      <div id="ball"></div>
-    </div>
-
-    <!--========================
-        CURSOR END
-    =========================-->
-
-    <!--jquery library js-->
-    <script src="js/plugin.js"></script>
-    <!-- Animation -->
-    <script src="js/animation.js"></script>
-    <!--main/custom js-->
-    <script src="js/main.js"></script>
   </body>
 </html>
