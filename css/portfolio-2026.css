@@ -6,17 +6,17 @@
   --bg: #f6f8f4;
   --bg-grid: rgba(17, 24, 39, 0.055);
   --surface: #ffffff;
-  --surface-soft: #eef4f1;
+  --surface-soft: #f4eef7;
   --ink: #111418;
   --muted: #5f6873;
-  --line: #d9e1dc;
-  --code: #162026;
-  --code-soft: #203039;
-  --accent: #0f8b8d;
-  --accent-strong: #0a6365;
-  --accent-warm: #d95d39;
-  --accent-leaf: #6f935f;
-  --focus: #ffb703;
+  --line: #e7dbe9;
+  --code: #1d1724;
+  --code-soft: #2d2038;
+  --accent: #a02a8e;
+  --accent-strong: #6f1d7a;
+  --accent-warm: #d946ef;
+  --accent-leaf: #8b5cf6;
+  --focus: #c026d3;
   --shadow: 0 24px 70px rgba(17, 24, 39, 0.1);
   --radius: 8px;
   --radius-sm: 6px;
@@ -36,8 +36,8 @@ body {
   background:
     linear-gradient(90deg, var(--bg-grid) 1px, transparent 1px),
     linear-gradient(180deg, var(--bg-grid) 1px, transparent 1px),
-    radial-gradient(circle at 15% 10%, rgba(15, 139, 141, 0.12), transparent 28rem),
-    radial-gradient(circle at 95% 8%, rgba(217, 93, 57, 0.1), transparent 24rem),
+    radial-gradient(circle at 15% 10%, rgba(160, 42, 142, 0.12), transparent 28rem),
+    radial-gradient(circle at 95% 8%, rgba(217, 70, 239, 0.1), transparent 24rem),
     var(--bg);
   background-size: 42px 42px, 42px 42px, auto, auto, auto;
   line-height: 1.5;
@@ -103,7 +103,7 @@ button {
 
 .nav-shell {
   width: min(100% - 2rem, var(--max));
-  min-height: 76px;
+  min-height: 72px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -119,17 +119,12 @@ button {
   letter-spacing: 0;
 }
 
-.brand-mark {
-  display: grid;
-  place-items: center;
-  width: 2.55rem;
-  height: 2.55rem;
-  border: 1px solid var(--line);
-  border-radius: var(--radius-sm);
-  background: var(--surface);
-  color: var(--accent-strong);
-  box-shadow: 0 10px 24px rgba(15, 139, 141, 0.12);
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+.brand > img {
+  width: 2.85rem;
+  height: 2.85rem;
+  flex: 0 0 auto;
+  object-fit: contain;
+  filter: drop-shadow(0 14px 22px rgba(160, 42, 142, 0.3));
 }
 
 .brand-copy {
@@ -219,7 +214,7 @@ button {
 
 .primary-nav a:hover,
 .primary-nav a[aria-current="true"] {
-  background: rgba(15, 139, 141, 0.09);
+  background: rgba(160, 42, 142, 0.09);
   color: var(--accent-strong);
 }
 
@@ -256,7 +251,7 @@ button {
   width: fit-content;
   margin: 0 0 1.15rem;
   padding: 0.38rem 0.62rem;
-  border: 1px solid rgba(15, 139, 141, 0.24);
+  border: 1px solid rgba(160, 42, 142, 0.24);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.72);
   color: var(--accent-strong);
@@ -270,7 +265,7 @@ button {
   height: 0.55rem;
   border-radius: 999px;
   background: var(--accent-leaf);
-  box-shadow: 0 0 0 0.28rem rgba(111, 147, 95, 0.16);
+  box-shadow: 0 0 0 0.28rem rgba(139, 92, 246, 0.16);
 }
 
 .hero h1,
@@ -319,7 +314,7 @@ button {
 
 .button:hover {
   transform: translateY(-2px);
-  border-color: rgba(15, 139, 141, 0.38);
+  border-color: rgba(160, 42, 142, 0.38);
   box-shadow: 0 18px 34px rgba(17, 24, 39, 0.1);
 }
 
@@ -427,7 +422,7 @@ button {
 }
 
 .prompt {
-  color: #8ee3d0;
+  color: #e879f9;
 }
 
 .command {
@@ -599,8 +594,8 @@ button {
 
 .filter-button:hover,
 .filter-button[aria-pressed="true"] {
-  border-color: rgba(15, 139, 141, 0.42);
-  background: rgba(15, 139, 141, 0.1);
+  border-color: rgba(160, 42, 142, 0.42);
+  background: rgba(160, 42, 142, 0.1);
   color: var(--accent-strong);
 }
 
@@ -692,7 +687,7 @@ button {
   padding: 0.85rem;
   border-left: 3px solid var(--accent);
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-  background: rgba(15, 139, 141, 0.075);
+  background: rgba(160, 42, 142, 0.075);
   font-weight: 750;
 }
 
@@ -724,8 +719,8 @@ button {
 }
 
 .inline-link:hover {
-  border-color: rgba(15, 139, 141, 0.42);
-  background: rgba(15, 139, 141, 0.08);
+  border-color: rgba(160, 42, 142, 0.42);
+  background: rgba(160, 42, 142, 0.08);
 }
 
 .contact-section {
@@ -810,7 +805,7 @@ button {
 
   .primary-nav {
     position: fixed;
-    inset: 76px 1rem auto 1rem;
+    inset: 72px 1rem auto 1rem;
     display: grid;
     gap: 0.35rem;
     padding: 0.8rem;
@@ -860,7 +855,7 @@ button {
 @media (max-width: 640px) {
   .nav-shell {
     width: min(100% - 1rem, var(--max));
-    min-height: 68px;
+    min-height: 64px;
   }
 
   .brand-copy small,
@@ -869,7 +864,7 @@ button {
   }
 
   .primary-nav {
-    inset: 68px 0.5rem auto 0.5rem;
+    inset: 64px 0.5rem auto 0.5rem;
   }
 
   .container {
